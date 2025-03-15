@@ -2,3 +2,4 @@ langchain
 streamlit
 transformers
 faiss-cpu
+langchain-community
