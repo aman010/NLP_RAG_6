@@ -1,4 +1,5 @@
 The current setup is primarily a retrieval-based approach (RAG – Retrieval-Augmented Generation) that doesn't involve much sentimental or deep contextual knowledge.
+
     --> Retrieval-Based Model (RAG):
         * Retriever (likely a vector database like FAISS) to search for relevant documents that match the user query.
         * In this case, you're using pre-defined documents where answers are stored. When a question like "What is your age?" is asked, the model retrieves the answer (in this case, "29") from a relevant document based on the query.
