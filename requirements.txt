@@ -3,3 +3,5 @@ streamlit
 transformers
 faiss-cpu
 langchain-community
+instructor-embeddings
+sentence-transformers
