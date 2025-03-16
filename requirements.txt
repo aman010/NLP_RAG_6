@@ -1,9 +1,7 @@
 streamlit
-transformers==4.46.3
-sentence-transformers==2.2.2
 torch
-InstructorEmbedding
-faiss-cpu==1.8.0
-langchain==0.1.2
-langchain-community==0.0.18
-sentence-transformers==2.2.2
+sentence-transformers
+faiss-cpu
+langchain
+langchain-community
+
