@@ -1,3 +1,14 @@
+
+In order to access the deployed app on streamlit please follow the link below
+
+https://nlprag6-gn88hsgjh9cgmyjhzpzadj.streamlit.app/
+
+
+
+
+
+
+
 The current setup is primarily a retrieval-based approach (RAG – Retrieval-Augmented Generation) that doesn't involve much sentimental or deep contextual knowledge.
 
     --> Retrieval-Based Model (RAG):
