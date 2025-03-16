@@ -6,6 +6,7 @@ Created on Sat Mar 15 17:47:40 2025
 @author: qb
 """
 
+!pip install -U sentence-transformers==2.2.2
 import streamlit as st
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
