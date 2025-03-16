@@ -14,6 +14,7 @@ def install_package(package):
 
 # Install sentence-transformers
 install_package("sentence-transformers==2.2.2")
+install_package("langchain==0.1.2")
 
 import streamlit as st
 from langchain.chains import LLMChain
