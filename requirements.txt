@@ -1,6 +1,6 @@
-langchain
+langchain==0.1.2
 streamlit
-transformers
-faiss-cpu
-langchain-community
-sentence-transformers
+transformers==4.46.3
+faiss-cpu==1.7.4
+langchain-community==0.0.18
+sentence-transformers==2.2.2
