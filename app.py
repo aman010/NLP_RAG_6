@@ -79,7 +79,7 @@ You are an assistant to provide information about myself, please ask questions:<
         # Initialize embedding model
         embedding_model = get_embedding_model()
         vectordb = FAISS.load_local(
-            folder_path="/home/qb/NLP_Assignment/A6/requires/vector_db_path/nlp_stanford",
+            folder_path="./requires/vector_db_path/nlp_stanford",
             embeddings=embedding_model,
             index_name='nlp'  # Default index
         )   
