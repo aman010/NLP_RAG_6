@@ -5,8 +5,16 @@ Created on Sat Mar 15 17:47:40 2025
 
 @author: qb
 """
+import subprocess
+import sys
 
-!pip install -U sentence-transformers==2.2.2
+# Install sentence-transformers if not already installed
+def install_package(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# Install sentence-transformers
+install_package("sentence-transformers==2.2.2")
+
 import streamlit as st
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
