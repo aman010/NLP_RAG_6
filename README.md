@@ -5,9 +5,17 @@ https://nlprag6-gn88hsgjh9cgmyjhzpzadj.streamlit.app/
 
 
 
+For more please follow the link in the video below
 
 
+[![Watch Video](https://github.com/aman010/NLP_RAG_6/blob/main/Screenshot%20from%202025-03-16%2009-55-12.png)](https://youtu.be/y-p9tw4Jcd0)
 
+
+This assignment have four models:
+* In the notebook i use instructor-base and Gorq-model
+* Further for more evaluation use fast-chat
+* For the deployment on the web use distilledbert 
+* The deployed model can is only capable of short questions and answers, since vocabulary and capacity is limited.
 
 The current setup is primarily a retrieval-based approach (RAG – Retrieval-Augmented Generation) that doesn't involve much sentimental or deep contextual knowledge.
 
