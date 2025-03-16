@@ -4,3 +4,4 @@ transformers==4.46.3
 faiss-cpu==1.8.0
 langchain-community==0.0.18
 sentence-transformers==2.2.2
+InstructorEmbedding==1.0.1
