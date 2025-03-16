@@ -1,6 +1,5 @@
 streamlit
 torch
-InstructorEmbedding
 sentence-transformers==2.2.2
 faiss-cpu==1.8.0
 langchain==0.1.2
